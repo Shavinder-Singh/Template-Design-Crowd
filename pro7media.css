@@ -1,0 +1,132 @@
+@media screen and (max-width:578px) {
+  .first-dropdown {
+    display: none;
+  }
+
+  .first-dropdown2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .head-nav {
+    display: flex;
+    padding: 0px;
+  }
+
+  .head-nav ul {
+    display: flex;
+  }
+
+  .head-nav ul li {
+    list-style: none;
+    padding: 12px;
+  }
+
+  .head-nav ul li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+  }
+
+  .header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-right nav ul {
+    display: flex;
+  }
+
+  .header-right nav ul li {
+    padding: 14px;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .header nav ul li a {
+    color: grey;
+    text-decoration: none;
+  }
+
+  .header-button {
+    border: 2px solid #5d6d81;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    /* display: none; */
+  }
+
+  .header-button a {
+    color: grey;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width:1165px) {
+  .first-dropdown2 :hover .dropdown-content2 {
+    position: absolute;
+    top: 50px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 700px;
+    flex-wrap: wrap;
+    display: none;
+  }
+
+  .first-dropdown:hover .dropdown-content {
+    position: absolute;
+    top: 50px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 900%;
+    flex-wrap: wrap;
+    display: none;
+
+  }
+}
+
+/* DATA-DESIGNS CARDS */
+@media screen and (max-width:540px) {
+  .data-design-cards2 {
+    display: none;
+  }
+
+  .data-design-cards2 div {
+    display: none;
+  }
+
+  .data-design-cards3 {
+    display: none;
+  }
+
+  .data-design-cards3 div {
+    display: none;
+  }
+}
+
+@media screen and (max-width:617px) {
+  #check-session:checked~.beautiful-design-cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
